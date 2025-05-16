@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Informações do pacote NuGet -->
+    <PackageId>Mediator.Abstractions</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Pedro Lucas</Authors>
+    <Company>pepeu.io</Company>
+    <PackageDescription>Abstractions for Mediator Pattern implementations</PackageDescription>
+    <Description>Abstractions for Mediator Pattern implementations</Description>
+    <PackageTags>dotnet;ddd;mediator;</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/usuario/repositorio</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Title>Mediator.Abstractions</Title>
+    <Summary>Abstractions for Mediator Pattern implementations</Summary>
+    <Copyright>Copyright © 2025</Copyright>
+  </PropertyGroup>
+
+</Project>
