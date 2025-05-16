@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <!-- Informações do pacote NuGet -->
-    <PackageId>Mediator.Abstractions</PackageId>
+    <PackageId>Pepeu.Mediator.Abstractions</PackageId>
     <Version>1.0.0</Version>
     <Authors>Pedro Lucas</Authors>
     <Company>pepeu.io</Company>
@@ -15,11 +15,20 @@
     <PackageTags>dotnet;ddd;mediator;</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/usuario/repositorio</RepositoryUrl>
+    <RepositoryUrl>https://github.com/pedrooV2/Pepeu.Mediator.Abstractions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/pedrooV2/Pepeu.Mediator.Abstractions</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <Title>Mediator.Abstractions</Title>
+    <Title>Pepeu.Mediator.Abstractions</Title>
     <Summary>Abstractions for Mediator Pattern implementations</Summary>
     <Copyright>Copyright © 2025</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".github\workflows\main.yml" />
+  </ItemGroup>
 
 </Project>
